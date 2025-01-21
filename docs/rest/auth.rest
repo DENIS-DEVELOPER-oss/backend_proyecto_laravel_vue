@@ -1,0 +1,34 @@
+
+### Registro
+
+POST http://127.0.0.1:8000/api/v1/auth/register
+Accept: application/json
+Content-Type: application/json
+
+{
+    "name": "cristian",
+    "email": "cristian@gmail.com",
+    "password": "cristian12345",
+    "c_password": "cristian12345"
+
+
+}
+
+### Autenticacion 
+
+POST http://127.0.0.1:8000/api/v1/auth/login
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "cristian@gmail.com",
+    "password": "cristian12345"
+
+
+}
+
+### Obtener el perfil
+
+GET http://127.0.0.1:8000/api/v1/auth/profile
+Accept: application/json
+Authorization: Bearer 13|gjqHBuK9dQxcAmkQwuB74xK2oO3W15JSQFYKM1n3e2cab948

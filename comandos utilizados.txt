@@ -1,0 +1,4 @@
+### instalar api
+php artisan install:api 
+### Crear archivo AuthController
+php artisan make:controller AuthController
